@@ -2,15 +2,32 @@
 @import "bootstrap";
 
 /*Google map div*/
+.container 
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#map_container {
+	padding: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
 html, body {
 	height: 100%;
+	width: 100%;
     margin: 0;
     padding: 0;
 }
 
-#map {
+#map{
 	height: 100%;
+	width: 100%;
 }
+
 
 .controls {
   margin-top: 10px;
