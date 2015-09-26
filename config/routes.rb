@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  get 'home_pages/home'
-  get 'home_pages/help'
-  get 'home_pages/about'
-  get 'home_pages/contact'
+  get 'users/new'
+
+  get 'home'    =>  'home_pages#home'
+  get 'help'    =>  'home_pages#help'
+  get 'about'   =>  'home_pages#about'
+  get 'contact' =>  'home_pages#contact'
   root 'application#hello'
 
   # The priority is based upon order of creation: first created -> highest priority.
